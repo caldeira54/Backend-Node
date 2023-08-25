@@ -10,6 +10,6 @@ server.get('/teste', (req, res) => {
     res.send('TUDO CERTO COM A API!');
 });
 
-server.listen(3000, () => {
+server.listen(3333, () => {
     console.log('API ONLINE');
 })
